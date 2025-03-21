@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-de-fundo: rgb(224, 224, 224);
+    --cor-sombra: rgb(175, 175, 175);
+    --cor-de-fundo-pagina: white;
+    --cor-texto-destaque-biografia : rgb(0, 234, 255);
+    --cor-biografia-letra-link: black;
+    --cor-divisao-biografia-qualificacoes: rgb(0, 234, 255);
+    --cor-qualificacao-divisao: rgb(0, 234, 255);
+    --cor-barra-vazia: gray;
+    --cor-barra-cheia: rgb(0, 234, 255);
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 39% 2% 59%;
+    margin: 5em;
+    background-color: var(--cor-de-fundo-pagina);
+    box-shadow: -1em -1em 1em 0 var(--cor-sombra);
+
+}
+
+.container__biografia {
+    margin: 1em;   
+}
+
+#quadro-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#foto-perfil {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container__biografia-subtitulo {
+    font-size: 1.7em;
+    margin: 1.5em 0 0.1em 0;
+}
+
+.container__biografia-texto {
+    margin: 0.6em 0 0 0;
+}
+
+#texto__destaque-biografia {
+    color: var(--cor-texto-destaque-biografia);
+    font-weight: 700;
+}
+
+.container__biografia-link {
+    text-decoration: underline;
+    color: var(--cor-biografia-letra-link);
+}
+
+.container__biografia-lista {
+    margin: 0 0 0 2em;
+}
+
+.container__divisao-biografia-qualificacoes {
+    background-color: var(--cor-divisao-biografia-qualificacoes);
+    width: 0.3em;
+    height: 100%;
+}
+
+.container__qualificacoes {
+    margin: 1em;
+}
+
+.container__qualificacoes__nome-e-contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0 5em 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#container__qualificacoes__nome-e-contatos__cargo{
+    font-size: 1.1em;
+}
+
+.container__qualificacoes__container__contatos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0.1em 0 0.1em 0;
+}
+
+.container__qualificacoes__icones__contatos {
+    width: 2em;
+}
+
+.container__qualificacoes__subtitulo {
+    margin: 1em 0 2em 0;
+    font-size: 2em;
+}
+
+.container__qualificacoes__curriculo {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    align-items: center;
+    margin: 2em 0 2em 0;
+}
+
+.container__qualificacoes__divisao {
+    background-color: var(--cor-qualificacao-divisao);
+    width: 10%;
+    height: 100%;
+}
+
+.container__qualificacoes__listas {
+    margin-bottom: 2em;
+}
+
+.container__qualificacoes__competencias {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__qualificacoes__barra {
+    background-color: var(--cor-barra-vazia);
+    height: 0.3em;
+    width: 16em;
+    margin: 0.1em 0 1em 0;
+}
+
+#barra-comunicacao {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia) ;
+}
+
+#barra-trabalho-em-equipe {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-confianca {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-resolucao-de-problemas {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-lideranca {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-gestao-de-tempo {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-empatia {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-adaptabilidade {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+.container__qualificacoes__linguas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#barra-portugues {
+    width: 16em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-espanhol {
+    width: 6em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
+
+#barra-ingles {
+    width: 9em;
+    height: 0.3em;
+    background-color: var(--cor-barra-cheia);
+}
